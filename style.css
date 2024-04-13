@@ -106,3 +106,45 @@ button{
     display: flex;
     justify-content: flex-end;
 }
+
+
+/* Info section */
+.info-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+}
+
+.info-gallery{
+    display: flex;
+    
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+h2{
+    font-size: 36px;
+    font-weight:900;
+    color:#1f2937;
+    padding:16px 0;
+}
+
+.info-card{
+    
+    width: 180px;
+
+}
+
+
+.card-img{
+    border-radius: 18px;
+}
+
+.card-text{
+    font-size: 18px;
+}
